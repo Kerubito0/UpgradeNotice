@@ -13,6 +13,7 @@
 		240C93EC25DCA707006E726A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 240C93EB25DCA707006E726A /* Preview Assets.xcassets */; };
 		240C93F725DCA707006E726A /* UpgradeNoticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C93F625DCA707006E726A /* UpgradeNoticeTests.swift */; };
 		240C940225DCA707006E726A /* UpgradeNoticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C940125DCA707006E726A /* UpgradeNoticeUITests.swift */; };
+		240C941325DCAA5A006E726A /* UpgradeNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240C941225DCAA5A006E726A /* UpgradeNotice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		240C93FD25DCA707006E726A /* UpgradeNoticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpgradeNoticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		240C940125DCA707006E726A /* UpgradeNoticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeNoticeUITests.swift; sourceTree = "<group>"; };
 		240C940325DCA707006E726A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		240C941225DCAA5A006E726A /* UpgradeNotice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeNotice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				240C93E825DCA707006E726A /* Assets.xcassets */,
 				240C93ED25DCA707006E726A /* Info.plist */,
 				240C93EA25DCA707006E726A /* Preview Content */,
+				240C941225DCAA5A006E726A /* UpgradeNotice.swift */,
 			);
 			path = UpgradeNotice;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				240C941325DCAA5A006E726A /* UpgradeNotice.swift in Sources */,
 				240C93E725DCA705006E726A /* ContentView.swift in Sources */,
 				240C93E525DCA705006E726A /* UpgradeNoticeApp.swift in Sources */,
 			);

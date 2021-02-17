@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  UpgradeNotice
 //
-//  Created by 田中義男 on 2021/02/17.
+//  Created by Kerubito on 2021/02/17.
 //
 
 import SwiftUI
@@ -11,6 +11,9 @@ struct ContentView: View {
     var body: some View {
         Text("Hello, world!")
             .padding()
+        .onAppear {
+            UpgradeNotice.shared.fire()
+        }
     }
 }
 

@@ -2,7 +2,7 @@
 //  UpgradeNoticeTests.swift
 //  UpgradeNoticeTests
 //
-//  Created by 田中義男 on 2021/02/17.
+//  Created by kerubito on 2021/02/17.
 //
 
 import XCTest
